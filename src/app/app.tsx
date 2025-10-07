@@ -1,10 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { Nav } from '@/components';
-import CounterPage from '@/pages/counter-page';
-import DataPage from '@/pages/data-page';
-import FormPage from '@/pages/form-page';
-import HomePage from '@/pages/home-page';
+import { CounterPage, DataPage, FormPage, HomePage } from '@/pages';
+import { Nav } from '@/shared';
 
 export function App() {
     return (

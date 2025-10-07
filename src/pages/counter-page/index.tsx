@@ -1,7 +1,7 @@
-import { Button } from '@/components/ui/button.tsx';
-import { useCounter } from '@/stores';
+import { useCounter } from '@/features';
+import { Button } from '@/shared';
 
-export default function CounterPage() {
+export function CounterPage() {
     const count = useCounter((s) => s.count);
     const inc = useCounter((s) => s.inc);
 

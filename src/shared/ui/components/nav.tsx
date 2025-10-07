@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '@/components/ui/navigation-menu';
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '@/shared/ui/components/ui/navigation-menu';
 
 export const Nav = () => {
     return (

@@ -1,12 +1,12 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 
-import { Button } from '@/components/ui/button.tsx';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
-import { Input } from '@/components/ui/input.tsx';
-import { type FormSchema, formSchema } from '@/schemas/form';
+import { type FormSchema, formSchema } from '@/entities';
+import { Button } from '@/shared';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/shared';
+import { Input } from '@/shared';
 
-export default function FormPage() {
+export function FormPage() {
     const form = useForm<FormSchema>({
         resolver: zodResolver(formSchema),
         defaultValues: { name: '' },
