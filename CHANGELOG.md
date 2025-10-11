@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ResolveStudioIO/rs-react-vite-template/compare/rs-react-vite-template-v1.0.0...rs-react-vite-template-v1.1.0) (2025-09-27)
+
+
+### Features
+
+* add README.md with project overview and setup instructions ([2b7d4f8](https://github.com/ResolveStudioIO/rs-react-vite-template/commit/2b7d4f8eab2236779a1091dcc49ca8d69a4b21b3))
+
 ## 1.0.0 (2025-09-27)
 
 
