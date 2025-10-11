@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ResolveStudioIO/rs-react-vite-template/compare/rs-react-vite-template-v1.1.0...rs-react-vite-template-v1.2.0) (2025-10-11)
+
+
+### Features
+
+* refactor and translate .githbu** and other docs ([9a092e5](https://github.com/ResolveStudioIO/rs-react-vite-template/commit/9a092e554cdc65232db70ee5e8bfd0f606f908a4))
+
 ## [1.1.0](https://github.com/ResolveStudioIO/rs-react-vite-template/compare/rs-react-vite-template-v1.0.0...rs-react-vite-template-v1.1.0) (2025-09-27)
 
 
