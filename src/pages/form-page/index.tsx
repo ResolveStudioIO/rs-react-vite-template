@@ -13,7 +13,7 @@ export function FormPage() {
     });
 
     function onSubmit(values: FormSchema) {
-        alert(`Отправлено: ${JSON.stringify(values)}`);
+        alert(`Submitted: ${JSON.stringify(values)}`);
     }
 
     return (
@@ -24,15 +24,15 @@ export function FormPage() {
                     name="name"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel>Имя</FormLabel>
+                            <FormLabel>Name</FormLabel>
                             <FormControl>
-                                <Input {...field} placeholder="Введите имя" />
+                                <Input {...field} placeholder="Enter name" />
                             </FormControl>
                             <FormMessage />
                         </FormItem>
                     )}
                 />
-                <Button type="submit">Отправить</Button>
+                <Button type="submit">Submit</Button>
             </form>
         </Form>
     );

@@ -7,8 +7,8 @@ export function CounterPage() {
 
     return (
         <div className="space-y-2">
-            <p>Счётчик: {count}</p>
-            <Button onClick={inc}>Увеличить</Button>
+            <p>Counter: {count}</p>
+            <Button onClick={inc}>Increment</Button>
         </div>
     );
 }
