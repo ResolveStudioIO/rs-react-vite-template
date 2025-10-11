@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '@/components/ui/navigation-menu';
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '@/shared/ui/components/ui/navigation-menu';
 
 export const Nav = () => {
     return (
@@ -8,22 +8,22 @@ export const Nav = () => {
             <NavigationMenuList className="gap-4">
                 <NavigationMenuItem>
                     <NavigationMenuLink asChild>
-                        <Link to="/">Главная</Link>
+                        <Link to="/">Home</Link>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuLink asChild>
-                        <Link to="/data">Данные</Link>
+                        <Link to="/data">Data</Link>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuLink asChild>
-                        <Link to="/form">Форма</Link>
+                        <Link to="/form">Form</Link>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuLink asChild>
-                        <Link to="/counter">Счётчик</Link>
+                        <Link to="/counter">Counter</Link>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
             </NavigationMenuList>

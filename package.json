@@ -1,8 +1,8 @@
 {
     "name": "rs-react-vite-template",
     "private": true,
+    "author": "Aidamir Kambiev / Resolve Studio",
     "version": "1.1.0",
-    "author": "Resolve Studio",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -23,6 +23,7 @@
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "lucide-react": "^0.544.0",
+        "prettier": "^3.6.2",
         "react": "^19.1.1",
         "react-dom": "^19.1.1",
         "react-hook-form": "^7.63.0",

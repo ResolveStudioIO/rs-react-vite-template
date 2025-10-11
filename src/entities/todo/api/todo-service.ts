@@ -1,5 +1,5 @@
-import { api } from '@/api';
-import { type Todo, todoSchema } from '@/schemas';
+import { type Todo, todoSchema } from '@/entities/todo/model/todo';
+import { api } from '@/shared';
 
 export class TodoService {
     public static async fetchTodo(): Promise<Todo> {
