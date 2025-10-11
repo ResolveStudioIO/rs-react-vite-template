@@ -2,7 +2,7 @@
     "name": "rs-react-vite-template",
     "private": true,
     "version": "1.0.0",
-    "author": "Resolve Studio",
+    "author": "Aidamir Kambiev / Resolve Studio",
     "type": "module",
     "scripts": {
         "dev": "vite",

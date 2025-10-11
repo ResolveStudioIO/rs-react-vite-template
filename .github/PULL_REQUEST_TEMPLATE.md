@@ -1,17 +1,26 @@
-## Описание
+## Type
 
-Кратко: что изменилось и зачем?
+- [ ] feat
+- [ ] fix
+- [ ] refactor
+- [ ] docs
+- [ ] chore
 
-## Связанные задачи
+## Summary
 
-Closes #<номер> (если есть)
+Briefly describe what was changed and why.
 
-## Чеклист
+## Related Issues
 
-- [ ] Проект собирается
-- [ ] Код отформатирован (prettier)
-- [ ] Линтер без ошибок
+Closes #<issue-number> (if applicable)
 
-## Скриншоты/Примеры
+## Checklist
 
-(если применимо)
+- [ ] Code formatted with Prettier
+- [ ] Linter passes without errors
+- [ ] Build succeeds (`pnpm build`)
+- [ ] Storybook / screenshots updated (if applicable)
+
+## Screenshots / Examples
+
+(if applicable)
